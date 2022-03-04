@@ -181,6 +181,10 @@ main .content section {
     margin-top: 4rem;
 }
 
+main .content:last-child {
+    overflow: hidden;
+}
+
 main .content section .post-highlight img {
     width: 569px;
 }
@@ -219,15 +223,16 @@ main .content section .posts-galery {
     gap: 30px;
     width: 100%;
     margin-bottom: 68px;
+    overflow-y: scroll;
 }
 
 main .content section .posts-galery .post-item-galery {
     width: 100%;
-    max-width: 370px;
+    max-width: 350px;
 }
 
 main .content section .posts-galery .post-item-galery figure img {
-    width: 370px;
+    width: 350px;
 }
 
 main .content section .posts-galery .post-item-galery figure figcaption {
